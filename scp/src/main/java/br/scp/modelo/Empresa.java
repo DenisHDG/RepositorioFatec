@@ -6,6 +6,7 @@ public class Empresa {
 	String cnpj;
 	String razaoSocial;
 	String endereco;
+	String telefone;
 	int horarioEntrada;
 	int horarioSaida;
 	ArrayList<Conjunto> conjuntos;
@@ -13,6 +14,12 @@ public class Empresa {
 	public Empresa(){
 		conjuntos = new ArrayList<Conjunto>();
 		controleDeTemperatura = new ControleDeTemperatura();
+	}
+	public String getTelefone() {
+		return telefone;
+	}
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
 	}
 	public String getCnpj() {
 		return cnpj;

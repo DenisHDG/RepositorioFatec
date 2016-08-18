@@ -1,9 +1,11 @@
 package br.scp.controle;
 
 import br.scp.modelo.Empresa;
+import br.scp.modelo.EmpresaDAO;
 
 public class Controle {
 	Empresa empresa;
+	EmpresaDAO empresaDAO;
 	public Controle() {
 		empresa = new Empresa();
 	}
